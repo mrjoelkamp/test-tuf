@@ -2,13 +2,17 @@
  "signatures": [
   {
    "keyid": "b9c49c37aa989f3d479970999971bb1f8638a973b76de22ce2fd93504ed5747a",
-   "sig": "3045022100d71f56fabe7ead41d51ad2f0e0d4658c6bacee4d375edd9f075a15bc0c41dd8602202361d1f2ed06ee68286f277bc7fde639ab126c56220afb62f16375ffa38d3f78"
+   "sig": ""
+  },
+  {
+   "keyid": "e642e70171046d6d97efdea76792c373d863c55c054c4287c999c62c6011120f",
+   "sig": "3046022100f5a658a2acabe50ccc343eace19b073380b7b2eb2b5ebf8b90efbbf0b841c60c022100bd7f4dbf52f2226860995ef2a77ff669879fa47e6f932da9350acb37e7131531"
   }
  ],
  "signed": {
   "_type": "root",
   "consistent_snapshot": true,
-  "expires": "2034-03-20T20:31:42Z",
+  "expires": "2034-03-20T20:34:57Z",
   "keys": {
    "abcd": {
     "keytype": "sigstore-oidc",
@@ -26,12 +30,21 @@
     },
     "scheme": "ecdsa-sha2-nistp256",
     "x-tuf-on-ci-keyowner": "@mrjoelkamp"
+   },
+   "e642e70171046d6d97efdea76792c373d863c55c054c4287c999c62c6011120f": {
+    "keytype": "ecdsa",
+    "keyval": {
+     "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEuMtH9o0x/EHc/Rzoco4RyqmR7UwA\n0sHROw/79CMdbPh3/egmMxci3N+dJl6Re/cNkqR9eQy7joULS2K9Oxgxww==\n-----END PUBLIC KEY-----\n"
+    },
+    "scheme": "ecdsa-sha2-nistp256",
+    "x-tuf-on-ci-keyowner": "@ghost"
    }
   },
   "roles": {
    "root": {
     "keyids": [
-     "b9c49c37aa989f3d479970999971bb1f8638a973b76de22ce2fd93504ed5747a"
+     "b9c49c37aa989f3d479970999971bb1f8638a973b76de22ce2fd93504ed5747a",
+     "e642e70171046d6d97efdea76792c373d863c55c054c4287c999c62c6011120f"
     ],
     "threshold": 2
    },
