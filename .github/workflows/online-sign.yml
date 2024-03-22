@@ -4,10 +4,11 @@ permissions: {}
 
 on:
   schedule:
-    - cron:  '17 1,7,13,19 * * *'
+    - cron: "17 1,7,13,19 * * *"
   push:
-    branches: [ main ]
-    paths: ['metadata/**', '!metadata/timestamp.json', '!metadata/snapshot.json']
+    branches: [main]
+    paths:
+      ["metadata/**", "!metadata/timestamp.json", "!metadata/snapshot.json"]
   workflow_dispatch:
 
 jobs:
@@ -24,7 +25,8 @@ jobs:
           token: ${{ secrets.TUF_ON_CI_TOKEN || secrets.GITHUB_TOKEN }}
           gcp_workload_identity_provider: ${{ vars.GCP_WORKLOAD_IDENTITY_PROVIDER }}
           gcp_service_account: ${{ vars.GCP_SERVICE_ACCOUNT }}
-
+          aws_role_to_assume: ${{ vars.AWS_ROLE_TO_ASSUME }}
+          aws_region: ${{ vars.AWS_REGION }}
 
   update-issue:
     runs-on: ubuntu-latest
