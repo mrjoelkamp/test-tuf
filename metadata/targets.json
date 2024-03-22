@@ -1,0 +1,17 @@
+{
+ "signatures": [
+  {
+   "keyid": "e642e70171046d6d97efdea76792c373d863c55c054c4287c999c62c6011120f",
+   "sig": "304502210089f543db61f86e0277721ec14508047be8bbe8e7856440d9d3c410099f42159202204c7a522c5f038e69fcd132d25eaf9d09d758befbd45ed0587b0a4edcb8578f36"
+  }
+ ],
+ "signed": {
+  "_type": "targets",
+  "expires": "2025-03-22T19:49:46Z",
+  "spec_version": "1.0.31",
+  "targets": {},
+  "version": 1,
+  "x-tuf-on-ci-expiry-period": 365,
+  "x-tuf-on-ci-signing-period": 60
+ }
+}
