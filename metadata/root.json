@@ -13,7 +13,7 @@
    "abcd": {
     "keytype": "sigstore-oidc",
     "keyval": {
-     "identity": "https://github.com/mrjoelkamp/test/.github/workflows/online-sign.yml@refs/heads/main",
+     "identity": "https://github.com/mrjoelkamp/test-tuf/.github/workflows/online-sign.yml@refs/heads/main",
      "issuer": "https://token.actions.githubusercontent.com"
     },
     "scheme": "Fulcio",
