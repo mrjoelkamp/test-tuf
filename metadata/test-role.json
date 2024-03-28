@@ -2,18 +2,24 @@
  "signatures": [
   {
    "keyid": "b9c49c37aa989f3d479970999971bb1f8638a973b76de22ce2fd93504ed5747a",
-   "sig": "3045022052e45928cb40edfef500eafdbed95aaf695ce9d36f91baa2cfcb97ea3e6a43da022100d3df616155e61f69f9730f8b8c436ff5652a6541a77163cf1c7adbee684a58bb"
+   "sig": ""
   },
   {
    "keyid": "81cf5a78d6ea2cd904256b9d814b340289b765e6f75ec4397e4ebb7586cab664",
-   "sig": "3046022100f486044ac9307855399d4e467b218f47123c685bd741303b1ea2083f1e995e07022100c686ac96d131ecb59490fa7930d1372188f0b00333b2fdc1486bc454434c825e"
+   "sig": ""
   }
  ],
  "signed": {
   "_type": "targets",
-  "expires": "2034-03-23T18:48:29Z",
+  "expires": "2034-03-26T11:20:50Z",
   "spec_version": "1.0.31",
   "targets": {
+   "test-role/somedir/test3.txt": {
+    "hashes": {
+     "sha256": "a948904f2f0f479b8f8197694b30184b0d2ed1c1cd2a1ec0fb85d299a192a447"
+    },
+    "length": 12
+   },
    "test-role/test2.txt": {
     "hashes": {
      "sha256": "815af3e4385cd19bed18d10d341caa2fcb19e2fc6488135253b0ef78285877a6"
@@ -21,7 +27,7 @@
     "length": 37
    }
   },
-  "version": 2,
+  "version": 3,
   "x-tuf-on-ci-expiry-period": 3650,
   "x-tuf-on-ci-signing-period": 60
  }
