@@ -2,7 +2,7 @@
  "signatures": [
   {
    "keyid": "b9c49c37aa989f3d479970999971bb1f8638a973b76de22ce2fd93504ed5747a",
-   "sig": "3045022100f274494e4d6dfb3d4db24af468b05e522ccb76b4257fd2389a10244dc6cfbe60022050d66d24fd4b0b6a4dddc773f2c331a86eb30fa896473d59c35572ce8fb49f9f"
+   "sig": ""
   }
  ],
  "signed": {
@@ -38,10 +38,21 @@
      ],
      "terminating": true,
      "threshold": 1
+    },
+    {
+     "keyids": [
+      "81cf5a78d6ea2cd904256b9d814b340289b765e6f75ec4397e4ebb7586cab664"
+     ],
+     "name": "deep",
+     "paths": [
+      "deep/*"
+     ],
+     "terminating": true,
+     "threshold": 1
     }
    ]
   },
-  "expires": "2034-03-24T17:15:59Z",
+  "expires": "2034-03-26T11:48:28Z",
   "spec_version": "1.0.31",
   "targets": {
    "test.txt": {
@@ -51,7 +62,7 @@
     "length": 27
    }
   },
-  "version": 4,
+  "version": 5,
   "x-tuf-on-ci-expiry-period": 3650,
   "x-tuf-on-ci-signing-period": 60
  }
