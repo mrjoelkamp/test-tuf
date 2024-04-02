@@ -1,0 +1,1 @@
+delegated targets test
